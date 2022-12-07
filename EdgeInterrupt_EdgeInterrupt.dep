@@ -1,0 +1,7 @@
+Dependencies for Project 'EdgeInterrupt', Target 'EdgeInterrupt': (DO NOT MODIFY !)
+F (.\startup.s)(0x5DA92EB2)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\EdgeInterrupt.c)(0x638FE5B5)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\edgeinterrupt.o --omf_browse .\edgeinterrupt.crf --depend .\edgeinterrupt.d)
+I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (..\tm4c123gh6pm.h)(0x51D4C512)
+I (SysTick.h)(0x632CE4DE)
+F (..\lab3\SysTick.c)(0x63644E3D)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)

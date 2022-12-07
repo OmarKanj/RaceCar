@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil_v4\Labware\CECS346_Lab5_Interrupts\EdgeInterrupt.uvproj
+Project File Date:  10/29/2022
+
+<h2>Output:</h2>
+Rebuild target 'EdgeInterrupt'
+assembling startup.s...
+compiling EdgeInterrupt.c...
+SysTick.h(44): warning:  #1-D: last line of file ends without a newline
+  void SysTick_Wait10ms(unsigned long delay);
+EdgeInterrupt.c(75): warning:  #1295-D: Deprecated declaration move_clkwise - give arg types
+  void move_clkwise();
+EdgeInterrupt.c(76): warning:  #1295-D: Deprecated declaration move_anticlkwise - give arg types
+  void move_anticlkwise();
+EdgeInterrupt.c(78): warning:  #1295-D: Deprecated declaration DisableInterrupts - give arg types
+  void DisableInterrupts(); // Disable interrupts
+EdgeInterrupt.c(79): warning:  #1295-D: Deprecated declaration EnableInterrupts - give arg types
+  void EnableInterrupts();  // Enable interrupts
+EdgeInterrupt.c(80): warning:  #1295-D: Deprecated declaration WaitForInterrupt - give arg types
+  void WaitForInterrupt();  // Go to low power mode while waiting for the next interrupt
+EdgeInterrupt.c(120): warning:  #1295-D: Deprecated declaration PortF_LEDInit - give arg types
+  void PortF_LEDInit();     // Initialize Port F LEDs
+EdgeInterrupt.c(124): warning:  #1295-D: Deprecated declaration SysTick_Handler - give arg types
+  void SysTick_Handler();   // Handle SysTick generated interrupts
+EdgeInterrupt.c: 8 warnings, 0 errors
+compiling SysTick.c...
+..\lab3\SysTick.c(69): warning:  #1-D: last line of file ends without a newline
+  }
+..\lab3\SysTick.c: 1 warning, 0 errors
+linking...
+Program Size: Code=1752 RO-data=128 RW-data=24 ZI-data=1120  
+".\EdgeInterrupt.axf" - 0 Error(s), 9 Warning(s).
+Load "C:\\Keil_v4\\Labware\\CECS346_Lab5_Interrupts\\EdgeInterrupt.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+K.
+Load "C:\\Keil_v4\\Labware\\CECS346_Lab5_Interrupts\\EdgeInterrupt.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
